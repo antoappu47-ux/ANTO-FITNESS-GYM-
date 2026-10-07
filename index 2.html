@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>ANTO FIT - Fitness & Gym Center</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<section class="home" id="home">
+  <h1>ANTO FIT</h1>
+  <p class="subtitle">FITNESS & GYM CENTER</p>
+  <h2>BUILD YOUR BODY</h2>
+  <h3>BUILD YOUR MIND</h3>
+  <button onclick="joinNow()">JOIN NOW</button>
+</section>
+
+<section class="services" id="services">
+  <h2>OUR SERVICES</h2>
+  <div class="service-container">
+    <div class="service"><span>💪</span><h3>Weight Training</h3></div>
+    <div class="service"><span>🏃</span><h3>Cardio Training</h3></div>
+    <div class="service"><span>🧑‍🏫</span><h3>Personal Training</h3></div>
+    <div class="service"><span>🧘</span><h3>Fitness & Yoga</h3></div>
+  </div>
+</section>
+
+<section class="membership" id="membership">
+  <h2>MEMBERSHIP</h2>
+  <div class="plan-container">
+    <div class="plan"><h3>Monthly</h3><h4>₹999</h4><button onclick="selectPlan('Monthly')">JOIN NOW</button></div>
+    <div class="plan"><h3>Quarterly</h3><h4>₹2499</h4><button onclick="selectPlan('Quarterly')">JOIN NOW</button></div>
+    <div class="plan"><h3>Yearly</h3><h4>₹7999</h4><button onclick="selectPlan('Yearly')">JOIN NOW</button></div>
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <h2>CONTACT US</h2>
+  <p>📍 Tiruchirappalli</p>
+  <p>📞 +91 6385415974</p>
+  <button onclick="contactUs()">CONTACT NOW</button>
+</section>
+
+<footer><p>© 2026 ANTO FIT | Fitness & Gym Center</p></footer>
+
+<div id="toast"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
